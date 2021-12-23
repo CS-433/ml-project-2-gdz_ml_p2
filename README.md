@@ -48,7 +48,7 @@ You can reproduce our best prediction by two ways, using either [Google Colab Pr
 
 ## Models:
 
-The architecture of LinkNetB7 is presented in [our report](/ml-project-2-gdz_ml_p2/report.pdf).
+The architecture of LinkNetB7 is presented in [our report](./report.pdf).
 
 Moreover, the following models are used for comparisons:
 
