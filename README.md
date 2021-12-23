@@ -43,7 +43,7 @@ You can reproduce our best prediction by two ways, using either [Google Colab Pr
     - SciPy - 1.7.1
     - tqdm - 4.62.3
     - matplotlib - 3.5.0
-  - GPUs with at least 25.46GB RAM are required. Otherwise, you will get `RuntimeError: CUDA out of memory`
+  - GPUs with at least 25.46GB RAM are required. Otherwise, you will get `RuntimeError: CUDA out of memory`.
 
 
 
