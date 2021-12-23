@@ -74,7 +74,7 @@ In all three steps, the pixels outside the boundaries of the processed training 
 ### Testing Data Processing:
 Considering the fact that the resolution of testing images and training images are different, we implement the following testing data processing. First, each testing image is also resized. Let $\bar{H} \times \bar{W}$ and $\bar{H}' \times \bar{W}'$ denote the resolution of testing images and resized ones. Here, we set $\bar{H}' = \lfloor \frac{\bar{H} H'}{H} \rfloor$ and $\bar{W}' = \lfloor \frac{\bar{W} W'}{W} \rfloor$. Each resized testing image is divided into four patches with the size of $H' \times W'$, one at each corner. For each patch, its mask is predicted correspondingly. Next, the four masks are merged into one mask with the size of $\bar{H}' \times \bar{W}'$. This mask is further restored to the original resolution, and is used to create a submission file. The procedure for the testing data processing is presented as follows:
 
-![Testing_data_processing](.\__pycache__\Testing_data_processing.png)
+![Testing_data_processing](./__pycache__/Testing_data_processing.png)
 
 
 
