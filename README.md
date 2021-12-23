@@ -15,8 +15,8 @@
 - **User name**：[agong](https://www.aicrowd.com/participants/agong), [Skyedu](https://www.aicrowd.com/participants/skyedu), [yzong12139](https://www.aicrowd.com/participants/yzong12139)
 - **Team name**: GDZ_ML
 - **Submission ID**: [168621](https://www.aicrowd.com/challenges/epfl-ml-road-segmentation/submissions/168621)
-- **Categorical Accuracy**: 0.923
-- **F1 score**: 0.958
+- **F1 score**: 0.923
+- **Categorical Accuracy**: 0.958
 
 
 
@@ -42,7 +42,7 @@ You can reproduce our best prediction by two ways, using either [Google Colab Pr
     - SciPy - 1.7.1
     - tqdm - 4.62.3
     - matplotlib - 3.5.0
-  - GPUs with at least 25.46GB RAM are required.
+  - GPUs with at least 25.46GB RAM are required. Otherwise, you will get `RuntimeError: CUDA out of memory`
 
 
 
