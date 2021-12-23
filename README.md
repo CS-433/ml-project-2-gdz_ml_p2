@@ -92,7 +92,7 @@ You can reproduce our best prediction by two ways, using either [Google Colab Pr
 
 - Reproduce our best prediction in your local system.
 
-  - First, you should install all the packages mentioned in the **Requirement** section.
+  - First, install all the packages mentioned in the **Requirement** section.
   - Second, create a direction called `proj2_code` in your local system, i.e.,  `./proj2_code/`.
   - Third, make sure the structure of this direction is the same as in the **Folder Structure** section.
   - Then, you can run the provided `run.py` with
