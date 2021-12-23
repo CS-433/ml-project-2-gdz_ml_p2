@@ -33,7 +33,7 @@ You can reproduce our best prediction by two ways, using either [Google Colab Pr
   - Google Colab Pro contains all the needed packages, and is **highly recommended** for reproducing our best prediction.
   - Google Colab Pro provides NVIDIA Tesla P100 with 25.46GB RAM.
 
-- Reproduce our best prediction in the local system.
+- Reproduce our best prediction in your local system.
   - Before reproducing our best prediction, you should install all the following packages:
     - NumPy - 1.21.2
     - torch - 1.10.0
@@ -107,8 +107,10 @@ You can reproduce our best prediction by two ways, using either [Google Colab Pr
 ```
 proj2_code
 ├── README.md
-├── final_submission.csv
-├── report.pdf
+|
+├── final_submission.csv        # The final submission file producing our best prediction
+|
+├── report.pdf                  # The report
 |
 ├── run.py                      # The script used to reproduce our best prediction
 ├── training_data_processing.py # The training data processing functions
