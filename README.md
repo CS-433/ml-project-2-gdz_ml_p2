@@ -110,6 +110,8 @@ You can reproduce our best prediction by two ways, using either [Google Colab Pr
 ```
 proj2_code
 ├── README.md
+├── final_submission.csv
+├── report.pdf
 |
 ├── run.py                      # The script used to reproduce our best prediction
 ├── training_data_processing.py # The training data processing functions
